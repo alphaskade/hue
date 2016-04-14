@@ -766,6 +766,15 @@ table.airy tr td {
   right: 0;
 }
 
+.property-help {
+  display: inline-block;
+  width: 10px;
+  height: 14px;
+  margin-left: 7px;
+  font-size: 14px;
+  color: #888;
+}
+
 .hover-dropdown {
   display: inline-block;
   position: relative;
@@ -964,4 +973,8 @@ h4.header {
 
 .player-toolbar img {
   margin-top: 12px;
+}
+
+.tooltip {
+  z-index: 3000 !important;
 }
